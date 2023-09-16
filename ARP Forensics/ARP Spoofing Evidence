@@ -1,1 +1,13 @@
+After analyzing the packet capture in Wireshark, I found information on attacker, victim, and router.
 
+Attacker IP address: 192.168.1.105
+
+Attacker MAC address: 08:00:27:2d:f8:5a
+
+Victim IP address: 192.168.1.104
+
+Victim MAC address: 08:00:27:b8:b7:58
+
+Router IP address: 192.168.1.1
+
+Router MAC address: 08:00:27:5e:01:7c
