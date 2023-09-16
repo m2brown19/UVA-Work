@@ -1,4 +1,4 @@
-After analyzing the packet capture in Wireshark, I found information on attacker, victim, and router.
+After analyzing the packet capture in Wireshark, I found information on the attacker, victim, and router.
 
 Attacker IP address: 192.168.1.105
 
