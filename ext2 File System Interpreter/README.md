@@ -8,4 +8,4 @@ There are no limitations!
 It is similar to the dumpe2fs and debugfs command. It will provide information on the superblock,
 groups, inodes, directory entries and indirect blocks. 
 
-It has been tested on two ext2 disk images. It correctly worked on those as the photo evidence demonstrates. 
+It has been tested on two ext2 disk images (trivial.img and EXT2_test.img). It correctly worked on those as the ext2 evidence photo demonstrates.
