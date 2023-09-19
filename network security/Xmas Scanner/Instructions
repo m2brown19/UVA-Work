@@ -1,0 +1,3 @@
+My xmas scanner detects xmas scans on the local host interface. It sniffs for 1000 packets and detects if there has been an xmas scan. 
+
+You can test this using nmap -sX 127.0.0.1. 
