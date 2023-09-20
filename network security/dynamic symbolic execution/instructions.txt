@@ -1,0 +1,7 @@
+I used the tool "Angr" to analyze this binary file using dynamic symbolic execution. The password that came back from Angr is b'0105872773'. Enter it as 0105872773. You don't have to include the zero at the start. 
+
+
+I found this by following along with the DSE chapter in the Ethical Hacking book by Daniel Graham. I installed Angr and wrote the program for it with the binary program specified. Then, I executed it and found the password. 
+ 
+
+I got access granted when entering the correct password and access denied when I entered a false password. 
