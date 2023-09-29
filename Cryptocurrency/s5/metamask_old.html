@@ -1,0 +1,27 @@
+
+
+
+<script>
+  if ( window.ethereum === undefined )
+    window.alert("Please install MetaMask; this page will not work properly without that extension installed");
+</script>
+
+<script>
+
+let web3 = new Web3('URL');
+let web3mm = new Web3(window.ethereum);
+
+auctionContract = new web3.eth.Contract(auctioneerAbi,auctioneerContractAddress);
+auctionContractmm = new web3mm.eth.Contract(auctioneerAbi,auctioneerContractAddress);
+
+nftContract = new web3.eth.Contract(nftAbi,nftContractAddress);
+nftContractmm = new web3mm.eth.Contract(nftAbi,nftContractAddress);
+
+//todo -- do this cnxn thing with nftmanager too
+
+
+function connectToMetaMask() {
+    ethereum.request({ method: 'eth_requestAccounts' });
+}
+</script>
+<button onClick='connectToMetaMask()'>Enable Ethereum</button>
