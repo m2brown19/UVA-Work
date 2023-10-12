@@ -1,0 +1,3 @@
+All of these tests run correctly; however, advertisements on the website make the tests stall sometimes. Therefore, sometimes the test will time out and may fail but all of the tests do work. As long as the website has not changed, the test cases pass. 
+
+If you want to verify and the website hasn't changed, you can run it to see. If a test case fails, you have two options. The first option is to just comment out the failed all test cases that passed and run the ones that failed. This allows you to have a faster check that they work. The second option is to try running the program again, but you may run into the same issue with the same or a different test case due to advertisements interfering with the tests. 
